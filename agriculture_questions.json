@@ -1,0 +1,296 @@
+[
+  {
+    "input": "List the six strategic goals of the USDA FY 2022–2026 Strategic Plan.",
+    "expected_output": "1) Combat Climate Change to Support America’s Working Lands, Natural Resources, and Communities; 2) Ensure America’s Agricultural System is Equitable, Resilient, and Prosperous; 3) Foster an Equitable and Competitive Marketplace for All Agricultural Producers; 4) Provide All Americans Safe, Nutritious Food; 5) Expand Opportunities for Economic Development and Improve Quality of Life in Rural and Tribal Communities; 6) Attract, Inspire, and Retain an Engaged and Motivated Workforce that’s Proud to Represent USDA.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, page 2",
+    "question_category": "multicontext"
+  },
+  {
+    "input": "Summarize USDA's plan to address climate change according to the strategic plan.",
+    "expected_output": "USDA plans to mitigate and adapt to climate change by investing in climate-smart agriculture, forestry, renewable energy, soil health monitoring, greenhouse gas inventories, and by supporting producers with voluntary conservation incentives and science-based practices.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Goal 1",
+    "question_category": "reasoning"
+  },
+  {
+    "input": "Explain how USDA integrates equity and inclusion in its operations and programs.",
+    "expected_output": "USDA commits to rooting out systemic racism, expanding access for underserved communities, creating an inclusive workforce, and implementing recommendations from its Equity Commission to ensure fair access to programs and services.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, cross-cutting priority: Advancing Racial Justice, Equity, and Opportunity",
+    "question_category": "concretizing"
+  },
+  {
+    "input": "What actions does USDA take to ensure food safety and nutrition security?",
+    "expected_output": "USDA inspects food, enforces food safety regulations, monitors foodborne pathogens, supports nutrition programs, and promotes healthy dietary choices to reduce food insecurity and protect public health.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Goal 4",
+    "question_category": "multicontext"
+  },
+  {
+    "input": "Describe the core values that guide USDA employees.",
+    "expected_output": "Respect and Dignity, Equity and Inclusion, Trust and Integrity, Service and Results, and Science Leadership.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Mission, Vision, and Core Values section",
+    "question_category": "concretizing"
+  },
+  {
+    "input": "How does the OASCR Strategic Plan FY 2025–2029 define its mission and vision?",
+    "expected_output": "Its mission is to lead fair and equitable treatment of USDA customers and employees, ensure quality program delivery, and enforce civil rights. Its vision is a civil rights community that embraces and values equal access and opportunity for all.",
+    "document_reference": "OASCR FY 2025–2029 Strategic Plan, Overview section",
+    "question_category": "reasoning"
+  },
+  {
+    "input": "What are the main steps in resolving civil rights complaints according to OASCR?",
+    "expected_output": "The process includes intake (jurisdiction checks), investigation (fact-finding), and adjudication (final determination). Complaints may be dismissed on procedural or jurisdictional grounds or referred to the correct agency.",
+    "document_reference": "OASCR FY 2025–2029 Strategic Plan, Complaint Process section",
+    "question_category": "constrained"
+  },
+  {
+    "input": "Compare how USDA supports rural versus Tribal communities in its economic development goals.",
+    "expected_output": "USDA invests in broadband, clean water, infrastructure, affordable housing, sustainable power, and promotes economic vitality in both rural and Tribal communities, while also prioritizing environmental justice and cultural considerations specific to Tribes.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Goal 5",
+    "question_category": "comparative"
+  },
+  {
+    "input": "If a major flood damages farmland, how might USDA’s strategic plan help farmers recover?",
+    "expected_output": "USDA would provide technical assistance, deploy conservation and watershed restoration programs, offer financial support through disaster relief and insurance, and share climate adaptation resources via the Climate Hubs.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Goal 1 and Goal 5",
+    "question_category": "hypothetical"
+  },
+  {
+    "input": "What performance indicators are used to measure improvements in soil health?",
+    "expected_output": "Indicators include acres with Soil Health Management System practices, acres improved under EQIP, acres under Conservation Technical Assistance, and acres protected by Conservation Easements.",
+    "document_reference": "FY 2023 Performance Plan, Goal 1 indicators",
+    "question_category": "in-breadth"
+  },
+  {
+    "input": "Explain the role of the USDA Climate Hubs.",
+    "expected_output": "Climate Hubs connect research and field operations, provide region-specific data, tools, and outreach to help farmers and communities adapt to climate change with science-based decisions.",
+    "document_reference": "FY 2023 Performance Plan, Climate Outreach section",
+    "question_category": "concretizing"
+  },
+  {
+    "input": "How does the USDA monitor greenhouse gas emissions and carbon sequestration?",
+    "expected_output": "Through the Greenhouse Gas Inventory and Assessment Program, soil health monitoring, and data-driven reporting to guide conservation and climate-smart agricultural practices.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Goal 1 implementation strategies",
+    "question_category": "reasoning"
+  },
+  {
+    "input": "Identify USDA’s cross-cutting priorities that influence all strategic goals.",
+    "expected_output": "Addressing climate change, advancing racial justice and equity, creating more and better markets, tackling food and nutrition security, and making USDA a great place to work.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Cross-Cutting Themes section",
+    "question_category": "multicontext"
+  },
+  {
+    "input": "If an underserved farmer requests support, how does USDA’s strategic plan ensure equitable service?",
+    "expected_output": "USDA uses targeted outreach, financial programs, Equity Commission recommendations, civil rights enforcement, and staff training to guarantee fair access and remove systemic barriers.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, equity and inclusion cross-cutting theme",
+    "question_category": "hypothetical"
+  },
+  {
+    "input": "Describe how OASCR plans to measure progress on civil rights goals.",
+    "expected_output": "By defining clear metrics, conducting internal evaluations, using stakeholder feedback, and regularly reporting on diversity, equity, and inclusion outcomes.",
+    "document_reference": "OASCR FY 2025–2029 Strategic Plan, Guiding Principles",
+    "question_category": "concretizing"
+  },
+  {
+    "input": "What steps should USDA personnel take to file a program discrimination complaint?",
+    "expected_output": "Complete Form AD-3027 or write a detailed letter, then submit it by mail, fax, or email to the Office of the Assistant Secretary for Civil Rights (ASCR) at USDA.",
+    "document_reference": "OASCR FY 2025–2029 Strategic Plan, USDA Non-Discrimination Statement",
+    "question_category": "constrained"
+  },
+  {
+    "input": "Compare USDA’s focus on food security with its focus on food safety.",
+    "expected_output": "Food security ensures access to affordable, nutritious food, while food safety ensures the food supply is free from hazards. Both are supported by inspection programs, regulations, and nutrition assistance.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Goal 4",
+    "question_category": "comparative"
+  },
+  {
+    "input": "How does USDA foster innovation in agriculture?",
+    "expected_output": "By funding research, promoting new technologies, supporting conservation practices, expanding markets for sustainable and novel products, and fostering resilient supply chains.",
+    "document_reference": "FY 2023 Performance Plan, Goal 2 and Goal 3 objectives",
+    "question_category": "in-breadth"
+  },
+  {
+    "input": "If a USDA agency wants to improve customer experience, what should it prioritize?",
+    "expected_output": "It should focus on listening to diverse customer needs, enhancing service delivery, using human-centered design, and ensuring transparency and accountability.",
+    "document_reference": "FY 2023 Performance Plan, Agency Priority Goals",
+    "question_category": "hypothetical"
+  },
+  {
+    "input": "List three key agencies or mission areas involved in USDA’s climate-smart agriculture work.",
+    "expected_output": "Natural Resources Conservation Service (NRCS), Forest Service, Office of the Chief Economist (Climate Hubs and research).",
+    "document_reference": "FY 2023 Performance Plan, Climate and Soil Health sections",
+    "question_category": "concretizing"
+  },
+  {
+    "input": "Explain how USDA uses data to track strategic progress.",
+    "expected_output": "Data is collected through standardized methods, validated by scientists and leadership, and used to measure baselines, targets, and trends for each strategic goal and performance indicator.",
+    "document_reference": "FY 2023 Performance Plan, Introduction section",
+    "question_category": "reasoning"
+  },
+  {
+    "input": "What is the USDA’s role in preventing antimicrobial resistance in animal health?",
+    "expected_output": "USDA monitors antimicrobial resistance through a surveillance program within the National Animal Health Laboratory Network to enhance early detection and response.",
+    "document_reference": "FY 2023 Performance Plan, Agency Priority Goals",
+    "question_category": "in-breadth"
+  },
+  {
+    "input": "How does USDA plan to expand international market opportunities?",
+    "expected_output": "By negotiating and enforcing trade agreements, providing technical assistance, building capacity in developing countries, and supporting exports of sustainable and novel products.",
+    "document_reference": "FY 2023 Performance Plan, Goal 3 objectives",
+    "question_category": "reasoning"
+  },
+  {
+    "input": "What does the USDA’s Equity Commission do?",
+    "expected_output": "It provides independent recommendations on policies, programs, and actions to advance equity at USDA and address systemic barriers for underserved communities.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Equity cross-cutting theme",
+    "question_category": "concretizing"
+  },
+  {
+    "input": "Describe how USDA promotes environmental justice within rural and Tribal communities.",
+    "expected_output": "By maximizing sustainable and green economic development, improving infrastructure, providing clean energy and water, and ensuring equitable community investment.",
+    "document_reference": "FY 2023 Performance Plan, Goal 5 objectives",
+    "question_category": "multicontext"
+  },
+  {
+    "input": "What are the main pillars outlined in the OASCR Strategic Plan FY 2025–2029?",
+    "expected_output": "People (Advancing Racial Justice, Equity, and Opportunity), Process (Continuous Improvement and Accessibility), and Products and Services (Influencing Civil Rights Policy Nationwide).",
+    "document_reference": "OASCR FY 2025–2029 Strategic Plan, Secretary’s Message",
+    "question_category": "concretizing"
+  },
+  {
+    "input": "How does USDA ensure science-based decision-making remains free from political interference?",
+    "expected_output": "By establishing core values that emphasize reliable, timely, and relevant science leadership, and ensuring policy and research integrity through independent scientific review.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Core Values",
+    "question_category": "reasoning"
+  },
+  {
+    "input": "What kind of alternative communication formats does USDA provide to people with disabilities?",
+    "expected_output": "USDA provides program information in Braille, large print, audiotape, and American Sign Language, and offers services through the TARGET Center and Federal Relay Service.",
+    "document_reference": "OASCR FY 2025–2029 Strategic Plan, USDA Non-Discrimination Statement",
+    "question_category": "concretizing"
+  },
+  {
+    "input": "Compare the use of Conservation Technical Assistance with the Environmental Quality Incentives Program (EQIP).",
+    "expected_output": "Conservation Technical Assistance provides advice and planning to improve soil and water quality, while EQIP offers financial and technical help to implement conservation practices on working lands.",
+    "document_reference": "FY 2023 Performance Plan, Soil Health Indicators",
+    "question_category": "comparative"
+  },
+  {
+    "input": "Explain how USDA supports pollinator health in the context of climate change.",
+    "expected_output": "USDA researches pollinator resiliency, develops climate suitability maps for pests, and has a new pollinator subcommittee to guide research and protection measures under changing climate conditions.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Goal 1 Implementation Strategies",
+    "question_category": "in-breadth"
+  },
+  {
+    "input": "If USDA staff detect a conflict of interest in civil rights processing, what happens?",
+    "expected_output": "OASCR will process informal EEO complaints for staff offices and all conflict-of-interest cases, ensuring an impartial review and resolution process.",
+    "document_reference": "OASCR FY 2025–2029 Strategic Plan, EEO Complaint Process",
+    "question_category": "constrained"
+  },
+  {
+    "input": "Outline the steps USDA uses to adapt forests and rangelands to climate change impacts.",
+    "expected_output": "USDA improves forest health through wildfire risk reduction, resilience planning, cooperative management with landowners, and sustainability assessments aligned with climate adaptation plans.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Objective 1.2",
+    "question_category": "reasoning"
+  },
+  {
+    "input": "How does USDA promote customer trust according to its Performance Plan?",
+    "expected_output": "By improving high-impact services, listening to customer feedback, equipping staff with tools for human-centered service, and monitoring public trust measures.",
+    "document_reference": "FY 2023 Performance Plan, Agency Priority Goals",
+    "question_category": "concretizing"
+  },
+  {
+    "input": "What federal laws does OASCR enforce within USDA programs?",
+    "expected_output": "Title VI of the Civil Rights Act, Title VII (employment), Fair Housing Act, Section 504 of the Rehabilitation Act, Age Discrimination in Employment Act, and related federal civil rights laws.",
+    "document_reference": "OASCR FY 2025–2029 Strategic Plan, Appendix C",
+    "question_category": "in-breadth"
+  },
+  {
+    "input": "Hypothetically, if a drought emergency hits multiple states, which USDA tools help communities respond?",
+    "expected_output": "Emergency conservation programs, EQIP drought practices, Climate Hubs for localized science, and increased outreach to ensure equitable resource distribution.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Goal 1 and Goal 5",
+    "question_category": "hypothetical"
+  },
+  {
+    "input": "Identify two ways USDA supports resilient food systems.",
+    "expected_output": "By building infrastructure and supply chain resilience and fostering agricultural innovation to diversify production and markets.",
+    "document_reference": "FY 2023 Performance Plan, Goal 2 objectives",
+    "question_category": "multicontext"
+  },
+  {
+    "input": "Explain the purpose of USDA’s Terrestrial Condition Assessment.",
+    "expected_output": "It measures the percentage of National Forest System landscape ecosystems improved or maintained through management actions like wildfire risk reduction and habitat restoration.",
+    "document_reference": "FY 2023 Performance Plan, Forest Service Indicators",
+    "question_category": "concretizing"
+  },
+  {
+    "input": "Compare USDA's role in domestic markets versus international markets.",
+    "expected_output": "Domestically, USDA supports competitive, fair markets and food security; internationally, it negotiates trade agreements, expands exports, and provides technical assistance to boost demand.",
+    "document_reference": "FY 2023 Performance Plan, Goal 3 objectives",
+    "question_category": "comparative"
+  },
+  {
+    "input": "How does USDA’s Equity Commission influence decision-making?",
+    "expected_output": "By providing recommendations to reduce barriers, guide equitable policies, and integrate equity considerations into all USDA operations and programs.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Equity Priority",
+    "question_category": "reasoning"
+  },
+  {
+    "input": "What is the Conservation Reserve Program's goal regarding riparian and grass buffers?",
+    "expected_output": "To remove land from annual production, establish permanent conservation cover, increase carbon sequestration, improve water quality, and build agricultural resilience.",
+    "document_reference": "FY 2023 Performance Plan, Farm Service Agency section",
+    "question_category": "concretizing"
+  },
+  {
+    "input": "What actions can USDA take to reduce wildfire risks?",
+    "expected_output": "Implement the 10-Year Wildfire Crisis Strategy, increase fuel and forest health treatments, and invest in community resilience and landscape restoration.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Goal 1 Implementation",
+    "question_category": "in-breadth"
+  },
+  {
+    "input": "How does USDA ensure civil rights training is mandatory and consistent across its agencies?",
+    "expected_output": "OASCR oversees the development, delivery, and monitoring of annual mandatory civil rights training for all mission areas and staff offices.",
+    "document_reference": "OASCR FY 2025–2029 Strategic Plan, OASCR Overview",
+    "question_category": "constrained"
+  },
+  {
+    "input": "Hypothetically, how should USDA respond if a sudden trade dispute affects agricultural exports?",
+    "expected_output": "USDA would negotiate resolutions, provide technical market support to exporters, assist producers with domestic marketing, and adjust trade promotion programs.",
+    "document_reference": "FY 2023 Performance Plan, Goal 3: Global Markets",
+    "question_category": "hypothetical"
+  },
+  {
+    "input": "Describe how USDA uses the National Animal Health Laboratory Network for antimicrobial resistance.",
+    "expected_output": "It monitors resistance profiles in animal pathogens, enabling early detection and coordinated national response to animal health emergencies.",
+    "document_reference": "FY 2023 Performance Plan, Agency Priority Goals",
+    "question_category": "concretizing"
+  },
+  {
+    "input": "Explain USDA's strategy to ensure consistent broadband access.",
+    "expected_output": "Invest in broadband infrastructure and outreach, coordinate with federal partners, and aim to connect at least 550,000 households with high-speed internet by 2023.",
+    "document_reference": "FY 2023 Performance Plan, Agency Priority Goals",
+    "question_category": "reasoning"
+  },
+  {
+    "input": "What special emphasis programs does OASCR oversee?",
+    "expected_output": "USDA-wide Special Emphasis Programs that address equal employment opportunities for underrepresented groups and ensure compliance with civil rights directives.",
+    "document_reference": "OASCR FY 2025–2029 Strategic Plan, OASCR Overview",
+    "question_category": "in-breadth"
+  },
+  {
+    "input": "How are Indigenous knowledge and local data used in USDA climate adaptation plans?",
+    "expected_output": "USDA integrates Indigenous knowledge and region-specific data to develop effective strategies for extreme weather events and resilient land management.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Climate Adaptation Implementation",
+    "question_category": "multicontext"
+  },
+  {
+    "input": "Compare USDA’s role in climate research to its role in program delivery.",
+    "expected_output": "In research, USDA develops new climate-smart technologies and monitoring tools; in program delivery, it provides funding and technical support to apply these innovations on farms and forests.",
+    "document_reference": "USDA FY 2022–2026 Strategic Plan, Climate Goals",
+    "question_category": "comparative"
+  },
+  {
+    "input": "What is the role of USDA's Office of Budget and Program Analysis in performance planning?",
+    "expected_output": "It leads performance, evaluation, evidence, and risk management, chairs the Performance, Evaluation, and Evidence Committee, and ensures data quality and consistency across the Department.",
+    "document_reference": "FY 2023 Performance Plan, Introduction",
+    "question_category": "reasoning"
+  }
+]

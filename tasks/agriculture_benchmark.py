@@ -5,15 +5,15 @@ from inspect_ai.dataset import Sample
 import pandas as pd
 import os
 
-SYSTEM_MESSAGE = """You are an AI assistant designed to assist with answering Health and Human Services policy and operations questions.
+SYSTEM_MESSAGE = """You are an AI assistant designed to assist with answering Department of Agriculture policy and operations questions.
 
 ## Response instructions
 Please answer questions factually and provide a clear answer alongside relevant reasoning. If you're not sure, please say so — do not try to make up an answer.
 """
 
-def load_hhs_benchmark():
-    df = pd.read_csv("../datasets/hhs_benchmark.csv")
-    print(f"Loading {len(df)} samples from hhs_benchmark.csv")
+def load_agriculture_benchmark():
+    df = pd.read_csv("../datasets/agriculture_benchmark.csv")
+    print(f"Loading {len(df)} samples from agriculture_benchmark.csv")
     
     samples = []
     for _, row in df.iterrows():
@@ -31,12 +31,12 @@ def load_hhs_benchmark():
     return samples
 
 @task
-def hhsbench_eval():
+def agriculturebench_eval():
     return Task(
-        dataset=load_hhs_benchmark(),
+        dataset=load_agriculture_benchmark(),
         solver=[
             system_message(SYSTEM_MESSAGE),
-            generate(max_tokens=500), 
+            generate(max_tokens=500),  # Reasonable limit for agriculture policy answers
         ],
         scorer=model_graded_fact(model="openai/gpt-4o-mini")
     )
@@ -46,7 +46,7 @@ if __name__ == "__main__":
     
     # Run the full evaluation
     results = eval(
-        hhsbench_eval(),
+        agriculturebench_eval(),
         model=os.environ.get("INSPECT_EVAL_MODEL", "anthropic/claude-3-7-sonnet-20250219"),
         log_dir="./eval_logs",
         # Remove limit to run on all 60 samples

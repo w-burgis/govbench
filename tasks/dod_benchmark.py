@@ -47,7 +47,7 @@ if __name__ == "__main__":
     # Run the full evaluation
     results = eval(
         dodbench_eval(),
-        model=os.environ.get("INSPECT_EVAL_MODEL", "openai/gpt-4"),
+        model=os.environ.get("INSPECT_EVAL_MODEL", "anthropic/claude-3-7-sonnet-20250219"),
         log_dir="./eval_logs",
         # Remove limit to run on all 60 samples
     )
