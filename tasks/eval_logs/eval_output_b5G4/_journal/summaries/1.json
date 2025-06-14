@@ -1,0 +1,326 @@
+[
+  {
+    "id": 7,
+    "epoch": 1,
+    "input": "Which term refers to an ad hoc arrangement between nations for a common purpose?",
+    "target": "Coalition",
+    "metadata": {
+      "directorate": "j1",
+      "question_type": "multiplechoice"
+    },
+    "scores": {
+      "model_graded_fact": {
+        "value": "C"
+      }
+    },
+    "model_usage": {
+      "openai/gpt-4o": {
+        "input_tokens": 80,
+        "output_tokens": 71,
+        "total_tokens": 151,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      },
+      "openai/gpt-4o-mini": {
+        "input_tokens": 315,
+        "output_tokens": 294,
+        "total_tokens": 609,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      }
+    },
+    "total_time": 7.008,
+    "working_time": 6.788,
+    "uuid": "JBvt9m94eNorSLs8aj2Eci",
+    "retries": 0,
+    "completed": true
+  },
+  {
+    "id": 1,
+    "epoch": 1,
+    "input": "What system do DOD components use for disaster personnel accountability reporting?",
+    "target": "All DOD components will use PARS as the central repository when accomplishing personnel accountability reporting upon the occurrence of a natural or man-made disaster.",
+    "metadata": {
+      "directorate": "j1",
+      "question_type": "freeform"
+    },
+    "scores": {
+      "model_graded_fact": {
+        "value": "I"
+      }
+    },
+    "model_usage": {
+      "openai/gpt-4o": {
+        "input_tokens": 78,
+        "output_tokens": 95,
+        "total_tokens": 173,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      },
+      "openai/gpt-4o-mini": {
+        "input_tokens": 363,
+        "output_tokens": 349,
+        "total_tokens": 712,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      }
+    },
+    "total_time": 8.875,
+    "working_time": 8.619,
+    "uuid": "R4L3gwQ2svMQsbPwBAipVN",
+    "retries": 0,
+    "completed": true
+  },
+  {
+    "id": 9,
+    "epoch": 1,
+    "input": "What is the key difference between JPARR and PARS usage?",
+    "target": "JPARR is daily visibility/reconciliation; PARS is disaster accountability.",
+    "metadata": {
+      "directorate": "j1",
+      "question_type": "multiplechoice"
+    },
+    "scores": {
+      "model_graded_fact": {
+        "value": "C"
+      }
+    },
+    "model_usage": {
+      "openai/gpt-4o": {
+        "input_tokens": 78,
+        "output_tokens": 277,
+        "total_tokens": 355,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      },
+      "openai/gpt-4o-mini": {
+        "input_tokens": 531,
+        "output_tokens": 321,
+        "total_tokens": 852,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      }
+    },
+    "total_time": 9.454,
+    "working_time": 9.249,
+    "uuid": "JFaarEB6JmQp35NDCs3fCY",
+    "retries": 0,
+    "completed": true
+  },
+  {
+    "id": 3,
+    "epoch": 1,
+    "input": "Define foreign national.",
+    "target": "A foreign national is any person other than a US citizen, US permanent or temporary legal resident alien, or person in US custody.",
+    "metadata": {
+      "directorate": "j1",
+      "question_type": "freeform"
+    },
+    "scores": {
+      "model_graded_fact": {
+        "value": "C"
+      }
+    },
+    "model_usage": {
+      "openai/gpt-4o": {
+        "input_tokens": 69,
+        "output_tokens": 103,
+        "total_tokens": 172,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      },
+      "openai/gpt-4o-mini": {
+        "input_tokens": 360,
+        "output_tokens": 388,
+        "total_tokens": 748,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      }
+    },
+    "total_time": 10.344,
+    "working_time": 10.103,
+    "uuid": "j29fZ6kKq8Yu3MeFwJterz",
+    "retries": 0,
+    "completed": true
+  },
+  {
+    "id": 5,
+    "epoch": 1,
+    "input": "Who provides personnel visibility and strength reporting data for each Service to the CCDR?",
+    "target": "Service component commanders are responsible for providing accurate personnel visibility and strength reporting data to the CCDR for their respective Service.",
+    "metadata": {
+      "directorate": "j1",
+      "question_type": "freeform"
+    },
+    "scores": {
+      "model_graded_fact": {
+        "value": "C"
+      }
+    },
+    "model_usage": {
+      "openai/gpt-4o": {
+        "input_tokens": 81,
+        "output_tokens": 138,
+        "total_tokens": 219,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      },
+      "openai/gpt-4o-mini": {
+        "input_tokens": 404,
+        "output_tokens": 471,
+        "total_tokens": 875,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      }
+    },
+    "total_time": 11.122,
+    "working_time": 10.889,
+    "uuid": "o9auNsiSsG7k6g2227YU6h",
+    "retries": 0,
+    "completed": true
+  },
+  {
+    "id": 6,
+    "epoch": 1,
+    "input": "What entities does a JPPC typically in-process and out-process?",
+    "target": "Individual augmentees (military, civilian, and contractor).",
+    "metadata": {
+      "directorate": "j1",
+      "question_type": "multiplechoice"
+    },
+    "scores": {
+      "model_graded_fact": {
+        "value": "C"
+      }
+    },
+    "model_usage": {
+      "openai/gpt-4o": {
+        "input_tokens": 78,
+        "output_tokens": 183,
+        "total_tokens": 261,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      },
+      "openai/gpt-4o-mini": {
+        "input_tokens": 435,
+        "output_tokens": 310,
+        "total_tokens": 745,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      }
+    },
+    "total_time": 13.254,
+    "working_time": 13.029,
+    "uuid": "V8shWkHznVTAtwc4qQj7j6",
+    "retries": 0,
+    "completed": true
+  },
+  {
+    "id": 2,
+    "epoch": 1,
+    "input": "What is the J-1's role regarding stop-loss authority?",
+    "target": "While Services determine the necessity for stop-loss, the J-1 should work closely with Service components to ensure all considerations that may impact a stop-loss decision are communicated to the Services.",
+    "metadata": {
+      "directorate": "j1",
+      "question_type": "freeform"
+    },
+    "scores": {
+      "model_graded_fact": {
+        "value": "C"
+      }
+    },
+    "model_usage": {
+      "openai/gpt-4o": {
+        "input_tokens": 78,
+        "output_tokens": 192,
+        "total_tokens": 270,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      },
+      "openai/gpt-4o-mini": {
+        "input_tokens": 468,
+        "output_tokens": 487,
+        "total_tokens": 955,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      }
+    },
+    "total_time": 13.994,
+    "working_time": 13.743,
+    "uuid": "drR2ukNACMDmBRnWyJhjan",
+    "retries": 0,
+    "completed": true
+  },
+  {
+    "id": 8,
+    "epoch": 1,
+    "input": "What is the role of Command Emphasis in personnel support?",
+    "target": "Ensure JFC prioritizes and understands personnel support.",
+    "metadata": {
+      "directorate": "j1",
+      "question_type": "multiplechoice"
+    },
+    "scores": {
+      "model_graded_fact": {
+        "value": "C"
+      }
+    },
+    "model_usage": {
+      "openai/gpt-4o": {
+        "input_tokens": 77,
+        "output_tokens": 313,
+        "total_tokens": 390,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      },
+      "openai/gpt-4o-mini": {
+        "input_tokens": 562,
+        "output_tokens": 326,
+        "total_tokens": 888,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      }
+    },
+    "total_time": 14.976,
+    "working_time": 14.761,
+    "uuid": "HUQNH8vCRCQvsYBtGNtWju",
+    "retries": 0,
+    "completed": true
+  },
+  {
+    "id": 4,
+    "epoch": 1,
+    "input": "What is the overall function of the Joint Force Manpower and Personnel Directorate (J-1)?",
+    "target": "The J-1 plans and assesses force structure, personnel sustainment, and support concepts; advises staff on personnel matters impacting operations and planning; and coordinates with higher, supporting, subordinate, and associate organizations (USG, HN, MNF).",
+    "metadata": {
+      "directorate": "j1",
+      "question_type": "freeform"
+    },
+    "scores": {
+      "model_graded_fact": {
+        "value": "C"
+      }
+    },
+    "model_usage": {
+      "openai/gpt-4o": {
+        "input_tokens": 84,
+        "output_tokens": 273,
+        "total_tokens": 357,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      },
+      "openai/gpt-4o-mini": {
+        "input_tokens": 569,
+        "output_tokens": 430,
+        "total_tokens": 999,
+        "input_tokens_cache_read": 0,
+        "reasoning_tokens": 0
+      }
+    },
+    "total_time": 34.911,
+    "working_time": 14.508,
+    "uuid": "92vBaqbrkMhVuMtghgTm5c",
+    "retries": 0,
+    "completed": true
+  }
+]
